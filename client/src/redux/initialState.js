@@ -1,7 +1,7 @@
 const initialState = {
     game: {
         currPlayer: 1,
-        currMap: Array(9).fill(0),
+        currMap: Array(9).fill(null),
         history: []
     },
     player1: {
